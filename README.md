@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### `code coverage` 
+A metric that can help you understand how much of your software code is tested.
+
+ - statement coverage: how many of the sts in the software code hae been executed
+ - Branches coverage: how many of the branches of the control structures (if stts for the instance) have been executed.
+ - Function coverage: how many of the function defined have been called and finally.
+ - line coverage: how many of lines of source code have been  tested.
