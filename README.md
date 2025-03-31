@@ -76,3 +76,28 @@ A metric that can help you understand how much of your software code is tested.
  - Branches coverage: how many of the branches of the control structures (if stts for the instance) have been executed.
  - Function coverage: how many of the function defined have been called and finally.
  - line coverage: how many of lines of source code have been  tested.
+
+ ### `RTL QUERIES`
+ Every test we write genrally involves the following basic steps
+ - Render the component 
+ - Find an element rendered by the component
+ - Assert against the element found in step2 which will pass or fails the test.
+
+ To render the component we use the render method from the RTL
+
+ Fort assertionn, we use the expect passing a value and combine it with a matcher function from jest to jest-dom.
+
+ `Queries`
+  Queries are the methods that testing library provides to find elements on the page.
+  To find a single element on the page, we have
+  - getBy..
+  - queryBy..
+  - findBy..
+
+  To find multiple elements on the page, we have
+  - getAllBy..
+  - queryAllBy..
+  - findAllBy..
+
+  The two dots represents the suffix that can be one of role, LabelText, PlaceHoldertext, Text, DisplayValue, Alttext, Title and finally TestId
+

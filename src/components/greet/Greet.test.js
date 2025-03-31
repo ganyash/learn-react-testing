@@ -8,13 +8,13 @@ describe('Greet', ()=>{  // describe for grouping
     expect(testElement).toBeInTheDocument();
 });
 
-describe.skip('nested',()=>{
-    xit('Greet render  with a  name', ()=>{ // xit-> test.skip, fit->test.only 
-    render(<Greet name = "yash"/>)
-    const textEle = screen.getByText('Hello yash')
-    expect(textEle).toBeInTheDocument();
-})
-})
+// describe.skip('nested',()=>{
+//     xit('Greet render  with a  name', ()=>{ // xit-> test.skip, fit->test.only 
+//     render(<Greet name = "yash"/>)
+//     const textEle = screen.getByText('Hello yash')
+//     expect(textEle).toBeInTheDocument();
+// })
+// })
 })
 
 
