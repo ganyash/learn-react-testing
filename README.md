@@ -113,7 +113,13 @@ A metric that can help you understand how much of your software code is tested.
 
         If you are working with elements that do not have a default role or if you want to specify a different role, the role attribute can be used to add the desired role.
 
-        To use an anchor element as a button in the navbar, you can add role="button"
+        To use an anchor element as a button in the navbar, you can add role="button".
+
+      -  `getByRole` options
+        - The accessible name is for simple cases equal to 
+            1. the label of a form element.
+            2. the text content of a button 
+            3. the value of the aria-label attribute
 
     - `getByLabelText`
         will search for the label that matches the given text, then find the element associated with that label.
